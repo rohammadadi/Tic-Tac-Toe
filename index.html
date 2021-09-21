@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Tic Tac Toe</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body class="boddy">
+		<div class="primary">
+			<div class="ptxt text">
+				<p>Primary</p>
+			</div>
+			<div class="blue colours">
+				<p>  </p>
+			</div>
+			<div class="red colours">
+				<p>  </p>
+			</div>
+			<div class="yellow colours">
+				<p>  </p>
+			</div>
+			<div class="cyan colours">
+				<p>  </p>
+			</div>
+			<div class="orange colours">
+				<p>  </p>
+			</div>
+			<div class="purple colours">
+				<p>  </p>
+			</div>
+			<div class="green colours">
+				<p>  </p>
+			</div>
+		</div>
+
+		<div class="secondary">
+			<div class="stxt text">
+				<p>Secondary</p>
+			</div>
+			<div class="colours black">
+				<p>  </p>
+			</div>
+			<div class="colours white">
+				<p>  </p>
+			</div>
+			<div class="colours cyan">
+				<p>  </p>
+			</div>
+			<div class="colours darkred">
+				<p>  </p>
+			</div>
+		</div>
+
+		<div class="newGame">
+			<input class="newGamebtn" value="🔄 NEW GAME 🔄" type="submit" />
+		</div>
+		<div class="cback">
+			<input class="cbackbtn" type="submit" value="φ CHANGE BACKGROUND φ" />
+		</div>
+		<div class="wholebox">
+
+			<span><div class="cell aa">
+				<img src="cross.png" class="cross notsel">
+				<img src="circle.png" class="circle notsel">
+			</div>
+
+			<div class="cell ab">
+				<img src="cross.png" class="cross notsel">
+				<img src="circle.png" class="circle notsel">
+			</div>
+
+			<div class="cell ac">
+				<img src="cross.png" class="cross notsel">
+				<img src="circle.png" class="circle notsel">
+			</div></span>
+			
+			<br>
+			<span><div class="cell ba">
+				<img src="cross.png" class="cross notsel">
+				<img src="circle.png" class="circle notsel">
+			</div>
+
+			<div class="cell bb">
+				<img src="cross.png" class="cross notsel">
+				<img src="circle.png" class="circle notsel">
+			</div>
+
+			<div class="cell bc">
+				<img src="cross.png" class="cross notsel">
+				<img src="circle.png" class="circle notsel">
+			</div></span>
+
+			<br>
+			<span><div class="cell ca">
+				<img src="cross.png" class="cross notsel">
+				<img src="circle.png" class="circle notsel">
+			</div>
+
+			<div class="cell cb">
+				<img src="cross.png" class="cross notsel">
+				<img src="circle.png" class="circle notsel">
+			</div>
+
+			<div class="cell cc">
+				<img src="cross.png" class="cross notsel">
+				<img src="circle.png" class="circle notsel">
+			</div></span>
+
+
+		</div>
+		<div class="modal">
+			<p class="firstGop">Who should start first?</p>
+			<br>
+			<select class="firstGo">	
+					<option value="cross">XX cross XX</option>
+					<option value="circle">OO circle OO</option>
+			</select>
+			<br><br><br>
+			<input class="done" type="submit" name="done" value="done" />
+		</div>
+	</body>
+	<script src="script.js"></script>
+</html>
