@@ -1,0 +1,227 @@
+body{
+	background-image: url(space.jfif);
+	background-size: 1600px;
+}
+.wholebox, .cell, .modal{
+	border: 2px solid black;
+}
+.aa, .ab, .ac{
+	float: left;
+}
+.aa{
+	margin-left: 93px;
+	margin-top: 100px;
+	border-left: 2px solid cyan;
+	border-top: 2px solid cyan;
+}
+.ab{
+	margin-top: 100px;
+	border-top: 2px solid cyan;
+}
+.ac{
+	margin-top: 100px;
+	border-top: 2px solid cyan;
+	border-right: 2px solid cyan;
+}
+.ba, .bb, .bc{
+	float: left;
+	margin-top: 185px;
+}
+.ba{
+	margin-left: -312px;
+	border-left: 2px solid cyan;
+}
+.bb{
+	margin-left: -208px;
+}
+.bc{
+	margin-left: -104px;
+	border-right: 2px solid cyan;
+}
+.ca, .cb, .cc{
+	float: left;
+	margin-top: 270px;
+}
+.ca{
+	margin-left: -312px;
+	border-left: 2px solid cyan;
+	border-bottom: 2px solid cyan;
+}
+.cb{
+	margin-left: -208px;
+	border-bottom: 2px solid cyan;
+}
+.cc{
+	margin-left: -104px;
+	border-bottom: 2px solid cyan;
+	border-right: 2px solid cyan;
+}
+.cell{
+	width: 100px;
+	height: 100px;
+	text-align: center;
+	color: rgb(100, 100, 100);
+	font-size: 30px;
+}
+.cell:hover{
+	box-shadow: 0rem 0rem 6rem rgb(10, 10, 10);
+	transition: all 0.3s;
+}
+.cell:not(:hover){
+	box-shadow: 0rem 0rem 0rem rgb(10, 10, 10);
+	transition: all 1s;
+}
+.wholebox{
+	width: 500px;
+	height: 500px;
+	margin-left: 512.5px;
+	margin-top: 50px;
+	background-color: cyan;
+	box-shadow: 0rem 0rem 6rem rgb(10, 10, 10);
+}
+.notsel{
+	width: 10px;
+	display: none;
+}
+.sel{
+	width: 100px;
+	height: 100px;
+	display: block;
+}
+.modal{
+	width: 500px;
+	height: 500px;
+	margin-left: 512.5px;
+	margin-top: -504px;
+	background-color: white;
+	position: absolute;
+	text-align: center;
+	border-color: white;
+}
+select{
+	position: relative;
+	border-radius: 10px;
+	padding: 10px 40px 10px 50px;
+}
+select:hover, .modal input:hover{
+	border-radius: 20px;
+	box-shadow: 0 0 1rem black;
+	transition: all 0.25s;
+}
+select:not(:hover), .modal input:not(:hover){
+	border-radius: 10px;
+	box-shadow: 0 0 0 black;
+	transition: all 1s;
+}
+.firstGop{
+	font-size: 35px;
+	margin-top: 180px;
+}
+.modal input{
+	background-color: white;
+	border: 1px solid black;
+	padding: 5px 65px 5px 65px;
+}
+.newGame{
+	margin-top: -20px;
+	margin-left: 662.5px;
+}
+.cback{
+	margin-top: 20px;
+	margin-left: 662.5px;
+}
+.newGamebtn, .cbackbtn{
+	width: 200px;
+	height: 40px;
+	border-color: cyan;
+	background-color: white;
+	box-shadow: 0 0 2rem cyan;
+}
+.newGamebtn:hover, .cbackbtn:hover{
+	width: 200px;
+	height: 40px;
+	transition: all 0.3s;
+}
+.newGamebtn:not(:hover), .cbackbtn:not(:hover){
+	width: 200px;
+	height: 40px;
+	transition: all 1s;
+}
+.colours{
+	border: 2px solid white;
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	border-radius: 100%;
+	margin-left: 20px;
+}
+.primary .blue{
+	background-color: blue;
+	box-shadow: 0 0 2rem blue;
+}
+.primary .red{
+	margin-top: 50px;
+	background-color: red;
+	box-shadow: 0 0 2rem red;
+}
+.primary .yellow{
+	margin-top: 100px;
+	background-color: yellow;
+	box-shadow: 0 0 2rem yellow;
+}
+.primary .cyan{
+	margin-top: 150px;
+	background-color: cyan;
+	box-shadow: 0 0 2rem cyan;
+}
+.primary .orange{
+	margin-top: 200px;
+	background-color: orange;
+	box-shadow: 0 0 2rem orange;
+}
+.primary .purple{
+	margin-top: 250px;
+	background-color: purple;
+	box-shadow: 0 0 2rem purple;
+}
+.primary .green{
+	margin-top: 300px;
+	background-color: green;
+	box-shadow: 0 0 2rem green;
+}
+.secondary .colours{
+	margin-left: 100px;
+}
+.secondary .black{
+	background-color: black;
+	box-shadow: 0 0 2rem black;
+	
+}
+.secondary .white{
+	background-color: white;
+	box-shadow: 0 0 2rem white;
+	margin-top: 50px;
+}
+.secondary .cyan{
+	background-color: cyan;
+	box-shadow: 0 0 2rem cyan;
+	margin-top: 100px;
+}
+.secondary .darkred{
+	background-color: darkred;
+	box-shadow: 0 0 2rem darkred;
+	margin-top: 150px;
+}
+.text{
+	color: cyan;
+}
+.ptxt{
+	margin-left: 10px;
+}
+.stxt{
+	margin-top: -35px;
+	margin-left: 80px;
+}
+.modal:hover, .wholebox:hover{
+	transition: all 0.3s;
+}
